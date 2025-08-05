@@ -1,7 +1,0 @@
-User-agent: *
-
-Allow: /
-
-Disallow: /user-panel/#/login
-
-Sitemap: https://www.artisanalparfumhouse.com/sitemap.xml
