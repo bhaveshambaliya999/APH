@@ -1,0 +1,20 @@
+.privacy-notice{
+    h4 {
+        margin-bottom: 1rem;
+        font-size: 18px;
+        color: var(--black);
+        font-weight: bolder;
+    }
+    ul {
+        list-style: square;
+        margin-left: 20px;
+        margin-bottom: 1rem;
+        li {
+            margin-bottom: 10px;
+            list-style: square;
+            b {
+                color: var(--black);
+            }
+        }
+    }
+}

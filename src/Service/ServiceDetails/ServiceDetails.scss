@@ -1,0 +1,120 @@
+.fragrance-details{
+    h2{
+        color: #000;
+        font-size: 36px;
+        margin-bottom: 16px;
+    }
+    .BackToService{
+        color: var(--black);
+        text-decoration: underline;
+        &:hover{
+            color: rgba(0, 0, 0, 0.5);
+        }
+    }
+    .fragrance-right {
+        border: 1px solid #f1f1f1;
+        padding: 25px;
+        max-width: 750px;
+        margin: 0 auto;
+        text-align: left;
+        .contact-form {
+          width: 100%;
+          .form-row{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            .form-column{
+              flex: 1;
+              margin-bottom: 12px;
+              .form-label{
+                display: block;
+                font-weight: 500;
+                margin-bottom: 5px;
+                color: var(--black);
+              }
+              &.PhoneCode{
+                  max-width: 40%;
+                  flex: auto;
+                  .css-106wjmr-control,
+                  .css-6znzyw-control, 
+                  .custom-react-select__control {
+                      min-height: auto;
+                      box-shadow: none;
+                      border-radius: 0;
+                      cursor: pointer;
+                      background-color: var(--white);
+                      border: 1px solid #ccc;
+                      height: 50px;
+              
+                      &>div:first-child {
+                          padding: 9px 6px;
+              
+                          .css-1jqq78o-placeholder {
+                              color: #ccc;
+                          }
+              
+                          input {
+                              height: auto !important;
+                          }
+                      }
+              
+                      .css-1u9des2-indicatorSeparator {
+                          display: none;
+                      }
+              
+                      &:hover,
+                      &:focus {
+                          outline: none;
+                          box-shadow: none;
+                      }
+                  }
+              
+                  .input-group {
+                      .css-13cymwt-control,
+                      .css-t3ipsp-control {
+                          border-radius: 0;
+                      }
+                  }
+              }
+            }
+          }  
+          .form-input,
+          .form-textarea{
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #ccc;
+            border-radius: 0px;
+            &::placeholder{
+              color: #555;
+            }
+          }
+          .form-input:focus,
+          .form-textarea:focus{
+              outline: none;
+          }
+          .form-textarea{
+              resize: none;
+          }
+          select{
+            color: #555;
+            option:checked{
+              color: var(--black);
+            }
+          }
+        }
+    }
+    .fragrance-title {
+        margin-bottom: 16px;
+        h3 {
+            margin: 0;
+            font-family: inherit;
+            font-size: 20px;
+            color: var(--black);
+        }
+    }
+    @media (max-width: 575px) {
+      h2 {
+          font-size: 24px;
+      }
+  }
+}
