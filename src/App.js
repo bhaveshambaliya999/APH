@@ -1,5 +1,5 @@
 
-import "./Assets/css/bootstrap.min.css";
+
 import "./icon.scss";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
