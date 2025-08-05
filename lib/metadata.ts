@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 
-const darkLogo = "https://rpdiamondsandjewellery-uat.s3.ap-southeast-1.amazonaws.com/writable/uploads/1003/510/BRD5100001/mini_program/1003_510_BRD5100001_mini_program_566913517528287565785.png"
+const darkLogo = "https://rpdiamondsandjewellery-uat.s3.ap-southeast-1.amazonaws.com/writable/uploads/1003/510/STR5100105/mini_program/1003_510_STR5100105_mini_program_3218328917543832189245.jpg"
 const baseUrl = "https://artisanalparfumhouse.com"
 
 export const metaConfig = {
